@@ -24,42 +24,42 @@ The classes are :
 
 ## Project Pipeline 
 
-1. Data Preparation :
+<b>1. Data Preparation :</b>
 
 * Load and Organize: Read and organize the dataset, defining paths for training and testing images.
 * Create Datasets: Generate TensorFlow datasets for training and validation with a batch size of 32. Resize images to 180x180 pixels.
 * Visualize: Create visualizations to understand the distribution of images across different classes.
 
-2. Initial Model Development & Training:
+<b>2. Initial Model Development & Training:</b>
 
 * Build CNN: Design and implement a custom CNN architecture in TensorFlow.
 Data Preprocessing: Normalize pixel values between 0 and 1.
 * Training: Train the model for approximately 20 epochs using an appropriate optimizer and loss function.
 * Evaluation: Analyze the model's performance and identify potential issues (overfitting/underfitting).
 
-3. Addressing Overfitting/Underfitting (if applicable):
+<b>3. Addressing Overfitting/Underfitting (if applicable):</b>
 
 * Data Augmentation: Implement suitable data augmentation techniques (e.g., rotation, flipping, zooming) to enhance model robustness and mitigate overfitting/underfitting.
 * Retrain: Re-train the model on the augmented data for 20 epochs.
 * Re-evaluate: Analyze the model's performance after augmentation.
 
-4. Handling Class Imbalance:
+<b>4. Handling Class Imbalance:</b>
 
 * Analyze Class Distribution: Determine the class distribution in the training dataset, identifying underrepresented and overrepresented classes.
 * Class Balancing: Utilize the Augmentor library to address class imbalances through techniques like oversampling of underrepresented classes or undersampling of overrepresented classes.
 
-5. Final Model Development & Training:
+<b>5. Final Model Development & Training:</b>
 
 * Build CNN: Design and implement a custom CNN architecture in TensorFlow.
 * Data Preprocessing: Normalize pixel values between 0 and 1.
 * Training: Train the model for approximately 30 epochs using an appropriate optimizer and loss function.
 * Evaluation: Evaluate the final model's performance and analyze the results.
 
-*** Note: 
+### Note: 
 
 This project may require significant computational resources. Consider utilizing Google Colab for model training.
 
 This project focuses on building a custom CNN model and does not involve the use of pre-trained models or transfer learning techniques.
 
-*** Disclaimer
+### Disclaimer
 This is a deep learning assignment and the model is not intended for real-world medical diagnosis. Always consult a qualified healthcare professional for any skin concerns.
