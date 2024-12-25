@@ -63,3 +63,5 @@ This project focuses on building a custom CNN model and does not involve the use
 
 ### Disclaimer
 This is a deep learning assignment and the model is not intended for real-world medical diagnosis. Always consult a qualified healthcare professional for any skin concerns.
+
+#### Created by : Ritwik Raj 
