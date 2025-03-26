@@ -57,8 +57,6 @@ Data Preprocessing: Normalize pixel values between 0 and 1.
 
 ### Note: 
 
-This project may require significant computational resources. Consider utilizing Google Colab for model training.
-
 This project focuses on building a custom CNN model and does not involve the use of pre-trained models or transfer learning techniques.
 
 ### Disclaimer
